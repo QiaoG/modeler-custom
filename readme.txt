@@ -1,0 +1,1 @@
+activity 使用的是5.22 版本(F:\work\HiBPM\Activiti\Activiti-5.22.0; git branch 查看本地版本)

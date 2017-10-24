@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.xmlgraphics:batik-css:1.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-css/1.9/3eb0bdc9dedd2e33e7ace50e01eab16741fcb689/batik-css-1.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-css/1.9/39994d892857c45e5ca4770b5c12434ddae7a2ac/batik-css-1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

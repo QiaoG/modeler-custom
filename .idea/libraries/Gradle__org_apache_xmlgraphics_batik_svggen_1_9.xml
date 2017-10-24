@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.xmlgraphics:batik-svggen:1.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svggen/1.9/2c401640b2006df659df1fd21888c7b8c3d3ecec/batik-svggen-1.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svggen/1.9/7ea7ce500519eaf9afb0f1cfbf0cbb732d3147f9/batik-svggen-1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

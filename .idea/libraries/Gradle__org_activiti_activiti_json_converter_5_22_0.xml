@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.activiti:activiti-json-converter:5.22.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.activiti/activiti-json-converter/5.22.0/712d60ae7beb030b423bc55eecfc4ea7cbb3f085/activiti-json-converter-5.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.activiti/activiti-json-converter/5.22.0/cae9f624463dacc7a7f3a0678a54e7b9bedc44b4/activiti-json-converter-5.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

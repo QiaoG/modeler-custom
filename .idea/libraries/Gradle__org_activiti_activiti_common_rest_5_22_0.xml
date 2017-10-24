@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.activiti:activiti-common-rest:5.22.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.activiti/activiti-common-rest/5.22.0/f10242ea9df0139b9da75b2c6eb1a8d6c2bd33c3/activiti-common-rest-5.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.activiti/activiti-common-rest/5.22.0/49392b50f3c6b68c6ebf2ed220ba6dd7e853ef9c/activiti-common-rest-5.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
