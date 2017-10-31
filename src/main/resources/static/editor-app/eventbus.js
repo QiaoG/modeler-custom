@@ -65,7 +65,7 @@ KISBPM.eventBus = {
      * within a specific scope.
      */
     addListener: function (type, callback, scope) {
-
+        console.log("******* add listener "+type);
         // Add to the listeners map
         if (typeof this.listeners[type] !== "undefined") {
             this.listeners[type].push({scope: scope, callback: callback});

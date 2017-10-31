@@ -22,7 +22,7 @@ angular.module('activitiModeler')
     .controller('StencilController', ['$rootScope', '$scope', '$http', '$modal', '$timeout', function ($rootScope, $scope, $http, $modal, $timeout) {
 
         // Property window toggle state
-        $scope.propertyWindowState = {'collapsed': true};
+        $scope.propertyWindowState = {'collapsed': false};
 
         // Add reference to global header-config
         $scope.headerConfig = KISBPM.HEADER_CONFIG;
@@ -64,9 +64,11 @@ angular.module('activitiModeler')
              */
             $http({method: 'GET', url: KISBPM.URL.getStencilSet()}).success(function (data, status, headers, config) {
 
-            	var quickMenuDefinition = ['UserTask', 'EndNoneEvent', 'ExclusiveGateway', 
+          /*  	var quickMenuDefinition = ['UserTask', 'EndNoneEvent', 'ExclusiveGateway',
             	                           'CatchTimerEvent', 'ThrowNoneEvent', 'TextAnnotation',
-            	                           'SequenceFlow', 'Association'];
+            	                           'SequenceFlow', 'Association'];  */
+            	var quickMenuDefinition = ['UserTask', 'EndNoneEvent', 'ExclusiveGateway',
+            	                           'SequenceFlow'];
             	var ignoreForPaletteDefinition = ['SequenceFlow', 'MessageFlow', 'Association', 'DataAssociation', 'DataStore', 'SendTask'];
             	var quickMenuItems = [];
             	
@@ -363,12 +365,12 @@ angular.module('activitiModeler')
                     var selectedShape = shapes.first();
             	
                     var a = $scope.editor.getCanvas().node.getScreenCTM();
-        			
+                    console.log("a.a="+a.a+",  a.d="+a.d);
         			var absoluteXY = selectedShape.absoluteXY();
-        			
+                    console.log("1-absoluteXY.x="+absoluteXY.x+",  absoluteXY.y="+absoluteXY.y);
         			absoluteXY.x *= a.a;
         			absoluteXY.y *= a.d;
-        			
+                    console.log("2-absoluteXY.x="+absoluteXY.x+",  absoluteXY.y="+absoluteXY.y);
         			var additionalIEZoom = 1;
         			if (!isNaN(screen.logicalXDPI) && !isNaN(screen.systemXDPI)) {
                         var ua = navigator.userAgent;
@@ -398,7 +400,7 @@ angular.module('activitiModeler')
         			     absoluteXY.y = absoluteXY.y - (jQuery("#canvasSection").offset().top * additionalIEZoom) + 5 + ((canvasScrollTop * additionalIEZoom) - canvasScrollTop);
                          absoluteXY.x = absoluteXY.x - (canvasOffsetLeft * additionalIEZoom) + additionaloffset + ((canvasScrollLeft * additionalIEZoom) - canvasScrollLeft);
                     }
-        			
+
         			var bounds = new ORYX.Core.Bounds(a.e + absoluteXY.x, a.f + absoluteXY.y, a.e + absoluteXY.x + a.a*selectedShape.bounds.width(), a.f + absoluteXY.y + a.d*selectedShape.bounds.height());
         			var shapeXY = bounds.upperLeft();
         			
@@ -419,19 +421,19 @@ angular.module('activitiModeler')
     				if (bounds.width() < 48) {
     					x -= 24;
     				}
-        			
+                    console.log("shapeXY.x="+shapeXY.x+", shapeXY.y="+shapeXY.y+", bounds.width="+bounds.width()+", bounds.height="+bounds.height());
         			if (morphShapes && morphShapes.length > 0) {
         				// In case the element is not wide enough, start the 2 bottom-buttons more to the left
         				// to prevent overflow in the right-menu
 	        			var morphButton = document.getElementById('morph-button');
-	        			morphButton.style.display = "block";
+	        			morphButton.style.display = "none";//"block";
 	        			morphButton.style.left = x + 24 +'px';
 	        			morphButton.style.top = (shapeXY.y+bounds.height() + 2) + 'px';
         			}
         			
         			var deleteButton = document.getElementById('delete-button');
         			deleteButton.style.display = "block";
-        			deleteButton.style.left = x + 'px';
+        			deleteButton.style.left = 12+x + 'px';
         			deleteButton.style.top = (shapeXY.y+bounds.height() + 2) + 'px';
         			
         			if (stencilItem && (stencilItem.canConnect || stencilItem.canConnectAssociation)) {

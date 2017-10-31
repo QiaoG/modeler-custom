@@ -710,7 +710,7 @@
     "description" : "无特定触发器的开始事件",
     "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"fill\">\n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"15\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"1\"/>\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"33\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n  </g>\n</svg>",
     "icon" : "startevent/none.png",
-    "groups" : [ "开始事件" ],
+    "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "initiatorpackage", "formkeydefinitionpackage", "formpropertiespackage" ],
     "hiddenPropertyPackages" : [ ],
     "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ]
@@ -724,7 +724,8 @@
     "groups" : [ "开始事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "timercycledefinitionpackage", "timerdatedefinitionpackage", "timerdurationdefinitionpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ]
+    "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "StartSignalEvent",
@@ -735,7 +736,8 @@
     "groups" : [ "开始事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "signalrefpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ]
+    "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "StartMessageEvent",
@@ -746,7 +748,8 @@
     "groups" : [ "开始事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "messagerefpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ]
+    "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "StartErrorEvent",
@@ -757,7 +760,8 @@
     "groups" : [ "开始事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "errorrefpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ]
+    "roles" : [ "sequence_start", "Startevents_all", "StartEventsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "UserTask",
@@ -790,7 +794,8 @@
     "groups" : [ "活动" ],
     "propertyPackages" : [ "scriptformatpackage", "scripttextpackage", "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "BusinessRule",
@@ -801,7 +806,8 @@
     "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage", "ruletask_rulespackage", "ruletask_variables_inputpackage", "ruletask_excludepackage", "ruletask_resultpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "ReceiveTask",
@@ -812,7 +818,8 @@
     "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "ManualTask",
@@ -823,7 +830,8 @@
     "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "MailTask",
@@ -834,7 +842,8 @@
     "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage", "mailtasktopackage", "mailtaskfrompackage", "mailtasksubjectpackage", "mailtaskccpackage", "mailtaskbccpackage", "mailtasktextpackage", "mailtaskhtmlpackage", "mailtaskcharsetpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "CamelTask",
@@ -845,7 +854,8 @@
     "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage", "cameltaskcamelcontextpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "MuleTask",
@@ -856,7 +866,8 @@
     "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage", "muletaskendpointurlpackage", "muletasklanguagepackage", "muletaskpayloadexpressionpackage", "muletaskresultvariablepackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "SendTask",
@@ -867,7 +878,8 @@
     "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "ActivitiesMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "SubProcess",
@@ -878,7 +890,8 @@
     "groups" : [ "结构模块" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "istransactionpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "EventSubProcess",
@@ -889,7 +902,8 @@
     "groups" : [ "结构模块" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "all" ]
+    "roles" : [ "Activity", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "CallActivity",
@@ -900,7 +914,8 @@
     "groups" : [ "结构模块" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "executionlistenerspackage", "callactivitycalledelementpackage", "callactivityinparameterspackage", "callactivityoutparameterspackage", "multiinstance_typepackage", "multiinstance_cardinalitypackage", "multiinstance_collectionpackage", "multiinstance_variablepackage", "multiinstance_conditionpackage", "isforcompensationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "Activity", "sequence_start", "sequence_end", "all" ]
+    "roles" : [ "Activity", "sequence_start", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "ExclusiveGateway",
@@ -908,7 +923,7 @@
     "description" : "单一选择的网关",
     "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   version=\"1.0\"\n   width=\"40\"\n   height=\"40\">\n  <defs\n     id=\"defs4\" />\n  <oryx:magnets>\n    <oryx:magnet\n       oryx:default=\"yes\"\n       oryx:cy=\"16\"\n       oryx:cx=\"16\" />\n  </oryx:magnets>\t\t\t\t\t\n  <g>\n  \n    <path\n       d=\"M -4.5,16 L 16,-4.5 L 35.5,16 L 16,35.5z\"\n       id=\"bg_frame\"\n       fill=\"#ffffff\"\n       stroke=\"#585858\"\n       style=\"stroke-width:1\" />\n    <g\n       id=\"cross\">\n      <path\n      \tid=\"crosspath\"\n      \tstroke=\"#585858\"\n      \tfill=\"#585858\"\n        d=\"M 8.75,7.55 L 12.75,7.55 L 23.15,24.45 L 19.25,24.45 z\"\n        style=\"stroke-width:1\" />\n      <path\n      \tid=\"crosspath2\"\n      \tstroke=\"#585858\"\n      \tfill=\"#585858\"\n        d=\"M 8.75,24.45 L 19.25,7.55 L 23.15,7.55 L 12.75,24.45 z\"\n        style=\"stroke-width:1\" />\n    </g>\n\t\n\t<text id=\"text_name\" x=\"26\" y=\"26\" oryx:align=\"left top\"/>\n\t\n  </g>\n</svg>\n",
     "icon" : "gateway/exclusive.databased.png",
-    "groups" : [ "网关" ],
+    "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "sequencefloworderpackage" ],
     "hiddenPropertyPackages" : [ ],
     "roles" : [ "sequence_start", "GatewaysMorph", "sequence_end", "all" ]
@@ -919,7 +934,7 @@
     "description" : "并行执行的网关",
     "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   version=\"1.0\"\n   width=\"40\"\n   height=\"40\">\n   \n  <oryx:magnets>\n    <oryx:magnet\n       oryx:default=\"yes\"\n       oryx:cy=\"16\"\n       oryx:cx=\"16\" />\n  </oryx:magnets>\n  <g>\n    <path\n       d=\"M -4.5,16 L 16,-4.5 L 35.5,16 L 16,35.5z\"\n       id=\"bg_frame\"\n       fill=\"#ffffff\"\n       stroke=\"#585858\"\n       style=\"stroke-width:1\" />\n    <path\n       d=\"M 6.75,16 L 25.75,16 M 16,6.75 L 16,25.75\"\n       id=\"path9\"\n       stroke=\"#585858\"\n       style=\"fill:none;stroke-width:3\" />\n    \n\t<text id=\"text_name\" x=\"26\" y=\"26\" oryx:align=\"left top\"/>\n\t\n  </g>\n</svg>\n",
     "icon" : "gateway/parallel.png",
-    "groups" : [ "网关" ],
+    "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "sequencefloworderpackage" ],
     "hiddenPropertyPackages" : [ ],
     "roles" : [ "sequence_start", "GatewaysMorph", "sequence_end", "all" ]
@@ -933,7 +948,8 @@
     "groups" : [ "网关" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "sequencefloworderpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "GatewaysMorph", "sequence_end", "all" ]
+    "roles" : [ "sequence_start", "GatewaysMorph", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "EventGateway",
@@ -944,7 +960,8 @@
     "groups" : [ "网关" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "asynchronousdefinitionpackage", "exclusivedefinitionpackage", "sequencefloworderpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "GatewaysMorph", "sequence_end", "all" ]
+    "roles" : [ "sequence_start", "GatewaysMorph", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "BoundaryErrorEvent",
@@ -955,7 +972,8 @@
     "groups" : [ "边界事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "errorrefpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ]
+    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "BoundaryTimerEvent",
@@ -966,7 +984,8 @@
     "groups" : [ "边界事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "timercycledefinitionpackage", "timerdatedefinitionpackage", "timerdurationdefinitionpackage", "timerenddatedefinitionpackage", "cancelactivitypackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ]
+    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "BoundarySignalEvent",
@@ -977,7 +996,8 @@
     "groups" : [ "边界事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "signalrefpackage", "cancelactivitypackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ]
+    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "BoundaryMessageEvent",
@@ -988,7 +1008,8 @@
     "groups" : [ "边界事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "messagerefpackage", "cancelactivitypackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ]
+    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "BoundaryCancelEvent",
@@ -999,7 +1020,8 @@
     "groups" : [ "边界事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ]
+    "roles" : [ "sequence_start", "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "BoundaryCompensationEvent",
@@ -1010,7 +1032,8 @@
     "groups" : [ "边界事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary", "all" ]
+    "roles" : [ "BoundaryEventsMorph", "IntermediateEventOnActivityBoundary", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "CatchTimerEvent",
@@ -1021,7 +1044,8 @@
     "groups" : [ "中间捕获事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "timercycledefinitionpackage", "timerdatedefinitionpackage", "timerdurationdefinitionpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "sequence_end", "CatchEventsMorph", "all" ]
+    "roles" : [ "sequence_start", "sequence_end", "CatchEventsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "CatchSignalEvent",
@@ -1032,7 +1056,8 @@
     "groups" : [ "中间捕获事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "signalrefpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "sequence_end", "CatchEventsMorph", "all" ]
+    "roles" : [ "sequence_start", "sequence_end", "CatchEventsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "CatchMessageEvent",
@@ -1043,7 +1068,8 @@
     "groups" : [ "中间捕获事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "messagerefpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "sequence_start", "sequence_end", "CatchEventsMorph", "all" ]
+    "roles" : [ "sequence_start", "sequence_end", "CatchEventsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "ThrowNoneEvent",
@@ -1054,7 +1080,8 @@
     "groups" : [ "中间捕获事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "ThrowEventsMorph", "sequence_start", "sequence_end", "all" ]
+    "roles" : [ "ThrowEventsMorph", "sequence_start", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "ThrowSignalEvent",
@@ -1065,7 +1092,8 @@
     "groups" : [ "中间捕获事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "signalrefpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "ThrowEventsMorph", "sequence_start", "sequence_end", "all" ]
+    "roles" : [ "ThrowEventsMorph", "sequence_start", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "EndNoneEvent",
@@ -1073,7 +1101,7 @@
     "description" : "无特定触发器的结束事件",
     "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   width=\"40\"\n   height=\"40\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"16\" oryx:cy=\"16\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"fill\">\n    <circle id=\"bg_frame\" cx=\"16\" cy=\"16\" r=\"14\" stroke=\"#585858\" fill=\"#ffffff\" stroke-width=\"3\"/>\n\t<text font-size=\"11\" \n\t\tid=\"text_name\" \n\t\tx=\"16\" y=\"32\" \n\t\toryx:align=\"top center\" \n\t\tstroke=\"#373e48\"\n\t></text>\n  </g>\n</svg>",
     "icon" : "endevent/none.png",
-    "groups" : [ "结束事件" ],
+    "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage" ],
     "hiddenPropertyPackages" : [ ],
     "roles" : [ "EndEventsMorph", "sequence_end", "all" ]
@@ -1087,7 +1115,8 @@
     "groups" : [ "结束事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage", "errorrefpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "EndEventsMorph", "sequence_end", "all" ]
+    "roles" : [ "EndEventsMorph", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "EndCancelEvent",
@@ -1098,7 +1127,8 @@
     "groups" : [ "结束事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "EndEventsMorph", "sequence_end", "all" ]
+    "roles" : [ "EndEventsMorph", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "EndTerminateEvent",
@@ -1109,7 +1139,8 @@
     "groups" : [ "结束事件" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "executionlistenerspackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "EndEventsMorph", "sequence_end", "all" ]
+    "roles" : [ "EndEventsMorph", "sequence_end", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "Pool",
@@ -1117,7 +1148,7 @@
     "description" : "用来结构化流程定义的泳道",
     "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n   width=\"600\"\n   height=\"250\"\n   version=\"1.0\">\n  <defs></defs>\n  <oryx:magnets>\n  \t<oryx:magnet oryx:cx=\"0\" oryx:cy=\"124\" oryx:anchors=\"left\" />\n  \t<oryx:magnet oryx:cx=\"299\" oryx:cy=\"249\" oryx:anchors=\"bottom\" />\n  \t<oryx:magnet oryx:cx=\"599\" oryx:cy=\"124\" oryx:anchors=\"right\" />\n  \t<oryx:magnet oryx:cx=\"299\" oryx:cy=\"0\" oryx:anchors=\"top\" />\n  \t<oryx:magnet oryx:cx=\"299\" oryx:cy=\"124\" oryx:default=\"yes\" />\n  </oryx:magnets>\n  <g pointer-events=\"none\" >\n    <defs>\n\t\t<radialGradient id=\"background\" cx=\"0%\" cy=\"10%\" r=\"100%\" fx=\"20%\" fy=\"10%\">\n\t\t\t<stop offset=\"0%\" stop-color=\"#ffffff\" stop-opacity=\"1\"/>\n\t\t\t<stop id=\"fill_el\" offset=\"100%\" stop-color=\"#ffffff\" stop-opacity=\"1\"/>\n\t\t</radialGradient>\n\t</defs>\n\t  \t\n  \t<rect\n  \t\tid=\"border\"\n  \t\tclass=\"stripable-element-force\"\n  \t\toryx:resize=\"vertical horizontal\"\n  \t\tx=\"0\"\n  \t\ty=\"0\"\n  \t\twidth=\"600\"\n  \t\theight=\"250\"\n  \t\tfill=\"none\"\n  \t\tstroke-width=\"9\"\n  \t\tstroke=\"none\"\n  \t\tvisibility=\"visible\"\n  \t\tpointer-events=\"stroke\"\n  \t/>\n    <rect\n    \tid=\"c\"\n    \toryx:resize=\"vertical horizontal\"\n    \tx=\"0\"\n    \ty=\"0\"\n    \twidth=\"600\" \n    \theight=\"250\" \n    \tstroke=\"black\" \n    \tfill=\"url(#background) white\"\n    \tfill-opacity=\"0.3\" \n    />\n    \n\t<rect \n\t\tid=\"caption\"\n\t\toryx:anchors=\"left top bottom\"\n\t\tx=\"0\"\n\t\ty=\"0\"\n\t\twidth=\"30\"\n\t\theight=\"250\"\n\t\tstroke=\"black\"\n\t\tstroke-width=\"1\"\n\t\tfill=\"url(#background) white\"\n\t\tpointer-events=\"all\"\n\t/>\n\t\n\t<rect \n\t\tid=\"captionDisableAntialiasing\"\n\t\toryx:anchors=\"left top bottom\"\n\t\tx=\"0\"\n\t\ty=\"0\"\n\t\twidth=\"30\"\n\t\theight=\"250\"\n\t\tstroke=\"black\"\n\t\tstroke-width=\"1\"\n\t\tfill=\"url(#background) white\"\n\t\tpointer-events=\"all\"\n\t/>\n\t\n    <text x=\"13\" y=\"125\" font-size=\"12\" id=\"text_name\" oryx:fittoelem=\"caption\" oryx:align=\"middle center\" oryx:anchors=\"left\" oryx:rotate=\"270\" fill=\"black\" stroke=\"black\"></text>\n    \n  </g>\n</svg>",
     "icon" : "swimlane/pool.png",
-    "groups" : [ "泳道" ],
+    "groups" : [ "活动" ],
     "layout" : [ {
       "type" : "layout.bpmn2_0.pool"
     } ],
@@ -1131,7 +1162,7 @@
     "description" : "结构化流程定义的区域",
     "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns:oryx=\"http://www.b3mn.org/oryx\"\n   xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n   width=\"600\"\n   height=\"250\"\n   version=\"1.0\">\n  <defs></defs>\n  <g pointer-events=\"none\" >\n  \n     <defs>\n\t\t<radialGradient id=\"background\" cx=\"0%\" cy=\"10%\" r=\"200%\" fx=\"20%\" fy=\"10%\">\n\t\t\t<stop offset=\"0%\" stop-color=\"#ffffff\" stop-opacity=\"1\"/>\n\t\t\t<stop id=\"fill_el\" offset=\"100%\" stop-color=\"#ffffff\" stop-opacity=\"0\"/>\n\t\t</radialGradient>\n\t</defs>\n\t\n  \t<rect id=\"border_invisible\" class=\"stripable-element-force\" oryx:resize=\"vertical horizontal\" x=\"0\" y=\"0\" width=\"600\" height=\"250\" fill=\"none\" stroke-width=\"10\" stroke=\"white\" visibility=\"hidden\" pointer-events=\"stroke\"/>\t\t\n\t<rect id=\"border\" oryx:resize=\"vertical horizontal\" x=\"0\" y=\"0\" width=\"600\" height=\"250\" stroke=\"black\" stroke-width=\"1\" fill=\"url(#background) white\" pointer-events=\"none\" />\n\t\n\t\n\t<rect \n\t\tid=\"caption\"\n\t\toryx:anchors=\"left top bottom\"\n\t\tx=\"0\"\n\t\ty=\"1\"\n\t\twidth=\"30\"\n\t\theight=\"248\"\n\t\tstroke=\"black\"\n\t\tstroke-width=\"0\"\n\t\tfill=\"white\"\n\t\tvisibility=\"hidden\"\n\t\tclass=\"stripable-element-force\"\n\t\tpointer-events=\"all\"\n\t/>\n\t\n\t<path\n\t\tstroke=\"black\"\n\t\tstroke-width=\"1\"\n\t\tfill=\"none\"\n\t\td=\"M 0,0 L 0,250\"\n        oryx:anchors=\"left top bottom\"\n        id=\"captionDisableAntialiasing\"\n    />\n\t\n\t<!--rect \n\t\tid=\"captionDisableAntialiasing\"\n\t\toryx:anchors=\"left top bottom\"\n\t\tx=\"0\"\n\t\ty=\"0\"\n\t\twidth=\"30\"\n\t\theight=\"250\"\n\t\tstroke=\"black\"\n\t\tstroke-width=\"1\"\n\t\tfill=\"url(#background) white\"\n\t/-->\n\t\n    <text \n\t\tx=\"13\"\n\t\ty=\"125\"\n\t\toryx:rotate=\"270\" \n\t\tfont-size=\"12\" \n\t\tid=\"text_name\" \n\t\toryx:align=\"middle center\" \n\t\toryx:anchors=\"left\"\n\t\toryx:fittoelem=\"caption\"\n\t\tfill=\"black\" \n\t\tstroke=\"black\">\n\t</text>\n  </g>\n</svg>",
     "icon" : "swimlane/lane.png",
-    "groups" : [ "泳道" ],
+    "groups" : [ "活动" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
     "hiddenPropertyPackages" : [ ],
     "roles" : [ "PoolChild", "canContainArtifacts", "all" ]
@@ -1142,7 +1173,7 @@
     "description" : "顺序跳转线定义了不同活动节点执行的顺序",
     "view" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg\r\n\txmlns=\"http://www.w3.org/2000/svg\"\r\n\txmlns:oryx=\"http://www.b3mn.org/oryx\"\r\n\tversion=\"1.0\"\r\n\toryx:edge=\"edge\" >\r\n\t<defs>\r\n\t  \t<marker id=\"start\" refX=\"1\" refY=\"5\" markerUnits=\"userSpaceOnUse\" markerWidth=\"17\" markerHeight=\"11\" orient=\"auto\">\r\n\t  \t\t<!-- <path id=\"conditional\"   d=\"M 0 6 L 8 1 L 15 5 L 8 9 L 1 5\" fill=\"white\" stroke=\"black\" stroke-width=\"1\" /> -->\r\n\t\t\t<path id=\"default\" d=\"M 5 0 L 11 10\" fill=\"white\" stroke=\"#585858\" stroke-width=\"1\" />\r\n\t  \t</marker>\r\n\t  \t<marker id=\"end\" refX=\"15\" refY=\"6\" markerUnits=\"userSpaceOnUse\" markerWidth=\"15\" markerHeight=\"12\" orient=\"auto\">\r\n\t  \t\t<path id=\"arrowhead\" d=\"M 0 1 L 15 6 L 0 11z\" fill=\"#585858\" stroke=\"#585858\" stroke-linejoin=\"round\" stroke-width=\"2\" />\r\n\t  \t</marker>\r\n\t</defs>\r\n\t<g id=\"edge\">\r\n\t\t<path id=\"bg_frame\" d=\"M10 50 L210 50\" stroke=\"#585858\" fill=\"none\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" marker-start=\"url(#start)\" marker-end=\"url(#end)\" />\r\n\t\t<text id=\"text_name\" x=\"0\" y=\"0\" oryx:edgePosition=\"startTop\"/>\r\n\t</g>\r\n</svg>",
     "icon" : "connector/sequenceflow.png",
-    "groups" : [ "连接对象" ],
+    "groups" : [ "活动" ],
     "layout" : [ {
       "type" : "layout.bpmn2_0.sequenceflow"
     } ],
@@ -1162,7 +1193,8 @@
     } ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "ConnectingObjectsMorph", "all" ]
+    "roles" : [ "ConnectingObjectsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "edge",
     "id" : "Association",
@@ -1176,7 +1208,8 @@
     } ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "ConnectingObjectsMorph", "all" ]
+    "roles" : [ "ConnectingObjectsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "edge",
     "id" : "DataAssociation",
@@ -1190,7 +1223,8 @@
     } ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "ConnectingObjectsMorph", "all" ]
+    "roles" : [ "ConnectingObjectsMorph", "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "TextAnnotation",
@@ -1201,7 +1235,8 @@
     "groups" : [ "文档注释" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage", "textpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "all" ]
+    "roles" : [ "all" ],
+    "removed" : true
   }, {
     "type" : "node",
     "id" : "DataStore",
@@ -1212,7 +1247,8 @@
     "groups" : [ "文档注释" ],
     "propertyPackages" : [ "overrideidpackage", "namepackage", "documentationpackage" ],
     "hiddenPropertyPackages" : [ ],
-    "roles" : [ "all" ]
+    "roles" : [ "all" ],
+    "removed" : true
   } ],
   "rules" : {
     "cardinalityRules" : [ {
